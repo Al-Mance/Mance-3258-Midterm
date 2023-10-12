@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Player_Mover
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":300.0,"y":9.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-361.0,"y":49.0},"guid":"60780d27-a8bd-4c6d-a6c4-758e5dba5b0c","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"a238df91-cb9f-4156-9364-ac1d70cca1ef","$version":"A","$type":"Unity.VisualScripting.Update","$id":"11"},{"outputCount":2,"defaultValues":{},"position":{"x":-9.0,"y":55.0},"guid":"c923007e-f7c8-462e-bf75-dd76550821b6","$version":"A","$type":"Unity.VisualScripting.Sequence","$id":"13"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":236.0,"y":139.0},"guid":"4480041c-0d35-49c9-9d18-806c7f638af5","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"15"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"moveSpeed","$type":"System.String"},"object":null},"position":{"x":1.0,"y":323.0},"guid":"9f89a260-5022-432e-afe3-1479a624e606","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"9c45508a-d8ca-4e72-afc5-d261dfe6e49f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"1","destinationUnit":{"$ref":"15"},"destinationKey":"in","guid":"893f795e-ad3d-48ce-a963-1db27248e117","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"Speed","guid":"a4b15a73-f1da-4eab-97d2-41e6bb9ab37c","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 2d1c97bc6a6cc2346826547e8564bea3, type: 2}
