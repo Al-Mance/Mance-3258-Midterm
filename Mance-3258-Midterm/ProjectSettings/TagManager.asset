@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Coin
   - Ammo Crate
+  - trap plate
+  - door plate
+  - door
   layers:
   - Default
   - TransparentFX
