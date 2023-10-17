@@ -1022,7 +1022,6 @@ MonoBehaviour:
     RefIds:
     - rid: 3763833101425573890
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data: 
 --- !u!114 &719746309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1880,7 +1879,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
